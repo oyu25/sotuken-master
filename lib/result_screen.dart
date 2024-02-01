@@ -98,7 +98,7 @@ class ResultScreen extends StatelessWidget {
               children: [
                 ElevatedButton(
                   onPressed: retryQuiz,
-                  child: Text('もう一回'),
+                  child: Text('もう一回はじめる'),
                 ),
                 ElevatedButton(
                   onPressed: goToHome,

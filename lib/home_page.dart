@@ -6,6 +6,10 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('みやぎ方言'),
+        leadingWidth: 85,  //leadingWidthを設定する
+      ),
       body: GestureDetector(
         onTap: () {
           Navigator.push(
