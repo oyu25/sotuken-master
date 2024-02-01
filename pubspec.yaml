@@ -1,0 +1,40 @@
+name: jikken1
+description: "A Flutter quiz app."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.3  # Added HTTP package for API calls
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.9.2
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/miyagi.png"
+
+flutter:
+  assets:
+    - assets/Quiz.json
+    - assets/Quiz1.json
+    - assets/Quiz2.json
+    - assets/Quiz3.json
+    - assets/Quiz4.json
+    - assets/Quiz5.json
+    - assets/Quiz6.json
+    - assets/Quiz7.json
+    - assets/Quiz8.json
+    - assets/miyagi.png
