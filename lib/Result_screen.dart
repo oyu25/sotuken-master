@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'question.dart';
+import 'Question.dart';
 
 class ResultScreen extends StatelessWidget {
   final List<Question> questions;

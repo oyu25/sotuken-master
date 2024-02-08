@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'quiz_page.dart';
+import 'Quiz_page.dart';
 
 class NewPage extends StatelessWidget {
   @override

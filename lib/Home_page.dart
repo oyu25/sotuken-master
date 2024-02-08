@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:jikken1/secoundpage.dart';
-import 'quiz_page.dart';
+import 'package:jikken1/Secoundpage.dart';
+import 'Quiz_page.dart';
 
 class HomePage extends StatelessWidget {
   @override

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'api_service.dart';
-import 'question.dart';
-import 'result_screen.dart';
-import 'secoundpage.dart';
+import 'Api_service.dart';
+import 'Question.dart';
+import 'Result_screen.dart';
+import 'Secoundpage.dart';
 
 class QuizPage extends StatefulWidget {
   final String buttonName;
